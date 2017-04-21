@@ -1,24 +1,33 @@
 {
-  "name" : "LibraryCheck",
-  "tags" : [ "build", "utils" ],
-  "authors" : [ "Jonathan Stowe <jns+git@gellyfish.co.uk>" ],
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "auth" : "github:jonathanstowe",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/LibraryCheck.git"
+  "name": "LibraryCheck",
+  "support": {
+    "source": "https://github.com/samcv/LibraryCheck",
+    "bugtracker": "https://github.com/samcv/LibraryCheck/issues"
   },
-  "source-url" : "git://github.com/jonathanstowe/LibraryCheck.git",
-  "perl" : "6.c",
-  "build-depends" : [
+  "source-url": "git://github.com/samcv/LibraryCheck.git",
+  "perl": "6.c",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "build-depends": [
+    
   ],
-  "provides" : {
-    "LibraryCheck" : "lib/LibraryCheck.pm"
+  "auth": "github:samcv",
+  "depends": [
+    
+  ],
+  "license": "Artistic-2.0",
+  "tags": [
+    "build",
+    "utils"
+  ],
+  "provides": {
+    "LibraryCheck": "lib/LibraryCheck.pm"
   },
-  "depends" : [
+  "test-depends": [
+    "Test"
   ],
-  "test-depends" : [
-     "Test"
+  "version": "v0.0.6",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ],
-  "description" : "Quick hack to determine whether a shared libray is present",
-  "version" : "v0.0.6"
+  "description": "Quick hack to determine whether a shared libray is present"
 }
